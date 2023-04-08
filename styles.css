@@ -10,7 +10,7 @@ html, body{
   margin:0px;
   padding: 0px;
   font-size: 16px;
-  font-family: 'Merriweather', serif;
+ 
 
 }
 
@@ -85,8 +85,23 @@ color: #B6E1E7;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  min-height: 100vh;
+  
 }
 
-.hero-title-1 h1{
+#hero-title-1{
   font-size: 20px;
+  justify-self: flex-end;
+  
+  color: #ffff;
 }
+
+
+.hero-title{
+  font-family: 'Merriweather', serif;
+  display: block;
+  color: aliceblue;
+  width: fit-content;
+  
+}
+
