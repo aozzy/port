@@ -90,11 +90,15 @@ color: #B6E1E7;
   
 }
 
-#hero-title-1{
-  font-size: 20px;
-  justify-self: flex-end;
+#hero-heading-1{
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
   
   color: #ffff;
+}
+
+#hero-heading-2{
+  
 }
 
 
