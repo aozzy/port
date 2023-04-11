@@ -89,7 +89,7 @@ background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  clip-path: polygon(0 1%, 100% 0, 100% 83%, 0% 100%);
+  /* clip-path: polygon(0 1%, 100% 0, 100% 83%, 0% 100%); */
   
 }
 
