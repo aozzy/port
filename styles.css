@@ -100,9 +100,6 @@ background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3
   color: #ffffff98;
 }
 
-#hero-heading-2{
-
-}
 
 
 .hero-title{
@@ -115,4 +112,9 @@ background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3
 
 .hero-title, h2 ,h3{
   font-size: 4.5rem;
+}
+
+
+#hero-paragraph{
+font-size: 1rem;
 }
