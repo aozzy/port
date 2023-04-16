@@ -1,14 +1,14 @@
 *{
   margin: 0;
-  padding: 0;
+ 
   box-sizing: border-box;
 }
 
 
 html, body{
-  height: 100%;
+  /* height: 100%; */
   margin:0px;
-  padding: 0px;
+ 
   font-size: 16px;
  
 
@@ -16,82 +16,25 @@ html, body{
 
 
 
-/* #test1{
-color:#0C1A1A ;
-}
 
-#test2{
-  color:#6ACFC7;
-}
-
-#test3{
-color: #FFCC00;
-}
-
-#test4{
-color: #009B4D;
-}
-
-#test5{
-color: #FAF5E9;
-}
-#test6{
-color: #BAFF39;
-}
-#test7{
-color: #6E6E6E;
-}
-#test8{
-color: #E9F1FA;
-}
-#test9{
-color: #00ABE4;
-}
-#test10{
-color: #00DD00;
-}
-#test11{
-color: #DDD0C8;
-}
-
-#test12{
-color: #323232;
-}
-
-#test13{
-color: #2272FF;
-}
-
-#test14{
-color: #F9B872;
-}
-
-#test15{
-color: #FAE7A5;
-}
-#test15{
-color: #B6E1E7;
-} */
 
 #hero{
-   height: 100vh;
-  width: 100%; 
-  background: #667db6;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-  
-}
-
-#hero{
+   
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  /* clip-path: polygon(0 1%, 100% 0, 100% 83%, 0% 100%); */
+  background: #667db6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 100px 20vw;
+
   
 }
+
+
 
 #hero-heading-1{
   font-size: 1.5rem;
