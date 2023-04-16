@@ -69,7 +69,8 @@ font-size: 1rem;
 }
 
 .about{
-
+display: flex;
+flex-direction: column;
 }
 
 .experince{
@@ -82,5 +83,5 @@ font-size: 1rem;
 }
 
 .contact{
-  
+
 }
