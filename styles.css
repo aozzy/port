@@ -151,3 +151,12 @@ transform: translate(85%,60%);
 .flip{
   transform: rotate(180deg);
 }
+
+.blob-motion{
+  position: absolute;
+  transform: translateY(-20%);
+}
+
+.para{
+  z-index: 100;
+}
