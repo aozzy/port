@@ -64,6 +64,9 @@ section{
   background: #0f0f10;
 }
 
+.darker{
+  background: #090908;
+}
 .curve{
 position: absolute;
 height: 225px;
@@ -130,4 +133,21 @@ transform: translate(85%,60%);
 
 .wave .shape-fill {
   fill: #000000;
+}
+
+
+.spacer{
+  aspect-ratio: 900/300;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.layer{
+  background-image: url('./layered-wave.svg');
+}
+
+.flip{
+  transform: rotate(180deg);
 }
